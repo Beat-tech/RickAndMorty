@@ -36,8 +36,8 @@ let container = document.getElementById ("containerCharacter")
             <div class="characterBox">
                 <img src=${character.image} alt="">
                 <p>Name: ${character.name}</p>
-                <p>Status:${character.status}</p>
-                <p>Species:${character.species}</p>
+                <p>Status: ${character.status}</p>
+                <p>Species: ${character.species}</p>
             </div>
             `;
             container.innerHTML += card
